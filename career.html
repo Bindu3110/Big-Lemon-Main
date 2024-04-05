@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Big Lemon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" href="lemon.png" type="image/icon type">
+
+  <style>
+    #Inrot{
+      background-color: #deff08; /* Dark background color */
+    }
+    body{
+        background-color: #deff08; /* Dark background color */
+    }
+    .navbar{
+        background-color: #879b05
+    }
+    .follow-link {
+    color: #ffffff; /* Change to the desired color */
+  }
+  .btn-custom {
+    background-color: white; /* Yellow color */
+    color: #deff08; /* Text color */
+    border-color: white; /* Border color */
+    color:#474842
+  }
+  .btn-custom:hover {
+    background-color: #768705; /* Darker yellow on hover */
+    border-color: #e0a800;
+  }
+  #email{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  #email:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="index.html">
+            <img src="lemon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Big lemon
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">&#127968;Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">&#9776 Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="career.html">&#128188 Career</a>
+              </li>    
+            </ul>
+          </div>
+        </div>
+</nav>
+<div class="container mt-3">
+  <h2>We are Hiring</h2>
+  <form   action="https://formspree.io/f/moqowlgv"
+  method="POST" >
+    <div class="mb-3 mt-3">
+       <label for="name">Name:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter your full name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="pwd">mubile number:</label>
+      
+      <input class="form-control" id="phoneNumber" type="number" min="1000000000" max="9999999999" placeholder="Phone Number"  required />
+      <label class="form-label" for="customFile">Attach your resume:</label>
+      <input type="file" class="form-control" id="customFile" />
+    </div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-custom">Submit</button>
+  </form>
+  <br>
+  <br>
+</div>
+
+<footer style="background-color: #768705; color: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Address</h5>
+          <p>123 Example Street<br>City, State ZIP</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://www.facebook.com/abdulrehman.arjunagi.3" class="follow-link"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://twitter.com/Arjunagi007" class="follow-link"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#" class="follow-link"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/arjunagi-a-rehman-moulaali-141a861a0/" class="follow-link"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <p>Phone: 8549933896<br><a href="mailto:abdul123arj@gmail.com" id="email">Email: abdul123arj@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
